@@ -1,6 +1,6 @@
 /* I reorganized the file so that some of the least specific selectors that affect elements throughout the page come first.
 After that, selectors follow the page chronologically as you would see each section in the html and on the webpage.
-Each section starts from least specific to more specific.
+I added classes.
 Then I consolodiated redundant attributes under common selectors. */
 
 /* Universal */
@@ -26,7 +26,7 @@ h2 {
 
 /* Header/navbar. I made this fixed to the top of the page, since it seems to look nicer with the bar following as you scroll down. */
 
-header {
+header.navigation {
     position: fixed;
     width: 100%;
     padding: 20px;
@@ -35,16 +35,16 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+h1.navigation {
     display: inline-block;
     font-size: 48px;
 }
 
-.seo {
+span.seo {
     color: #d9dcd6;
 }
 
-header nav {
+nav.navigation {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -53,13 +53,13 @@ header nav {
     margin-left: 25px;
 }
 
-.nav-link {
+a.nav-link {
     padding: 10px;
     color: #ffffff;
     text-decoration: none;
 }
 
-.meetingImg {
+img.meetingImg {
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
@@ -68,13 +68,13 @@ header nav {
 
 /* Main content of the page */
 
-main {
+main.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-main section {
+section.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,23 +83,23 @@ main section {
     color: #ffffff;
 }
 
-main img {
+img.content {
     max-height: 200px;
 }
 
-.float-left {
+img.float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+img.float-right {
     float: right;
     margin-left: 25px;
 }
 
 /* Sidebar content */
 
-aside {
+aside.benefits {
     margin-right: 20px;
     padding: 20px;
     float: right;
@@ -110,27 +110,17 @@ aside {
     color: #ffffff;
 }
 
-aside section {
+section.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-aside h3 {
+h3.benefits {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-aside section img {
+img.benefits {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -138,13 +128,13 @@ aside section img {
 
 /* Copyright information */
 
-footer {
+footer.copyright {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+h2.copyright {
     font-size: 20px;
 }
