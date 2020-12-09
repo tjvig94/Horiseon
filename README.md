@@ -1,5 +1,5 @@
-# Horiseon-Marketing
-Semantic website for Horiseon Marketing
+# Horiseon-SEO
+Semantic website for Horiseon Search Engine Optimization
 
 Code refactored for accessibility and search engine optimization.
 
