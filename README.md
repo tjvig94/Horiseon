@@ -1,5 +1,5 @@
 # Horiseon-SEO
-Semantic website for Horiseon Search Engine Optimization
+Semantic website for Horiseon Social Solution Services
 
 Code refactored for accessibility and search engine optimization.
 
@@ -10,7 +10,7 @@ Code refactored for accessibility and search engine optimization.
 5. Made navigation bar fixed to the top of the viewport.
 6. Commented out sections of CSS file to show what group of elements were being modified.
 7. Repaired id for "search-engine-optimization" so that the navbar link leads to that section. 
-8. Changed title to "Horiseon Search Engine Optimization."
+8. Changed title to "Horiseon Social Solution Services" to give a more accurate title for web searches.
 
 Webpage URL: https://tjvig94.github.io/Horiseon-SEO/
 
