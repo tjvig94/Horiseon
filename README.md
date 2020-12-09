@@ -12,6 +12,8 @@ Code refactored for accessibility and search engine optimization.
 7. Repaired id for "search-engine-optimization" so that the navbar link leads to that section. 
 8. Changed title to "Horiseon Search Engine Optimization."
 
-URL: https://tjvig94.github.io/Horiseon-SEO/
+Webpage URL: https://tjvig94.github.io/Horiseon-SEO/
+
+Repository URL: https://github.com/tjvig94/Horiseon-SEO
 
 Screenshot: ![screencapture-file-C-Users-tjvig-Bootcamp-Horiseon-Marketing-index-html-2020-12-08-19_47_10](https://user-images.githubusercontent.com/69410700/101559043-35760b80-398e-11eb-8660-52f07c428811.png)
