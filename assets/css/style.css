@@ -40,7 +40,7 @@ header.navigation h1 {
     font-size: 48px;
 }
 
-span.seo {
+header span.seo {
     color: #d9dcd6;
 }
 
@@ -54,7 +54,7 @@ header.navigation nav {
 }
 
 a.nav-link {
-    padding: 10px;
+    padding: 25px;
     color: #ffffff;
     text-decoration: none;
 }
