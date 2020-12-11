@@ -40,6 +40,10 @@ header.navigation h1 {
     font-size: 48px;
 }
 
+header.navigation li {
+    display: inline-block;
+}
+
 header span.seo {
     color: #d9dcd6;
 }
