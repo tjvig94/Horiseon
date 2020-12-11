@@ -1,4 +1,4 @@
-# Horiseon-SEO
+# Horiseon Social Solution Soervices
 Semantic website for Horiseon Social Solution Services
 
 Code refactored for accessibility and search engine optimization.
